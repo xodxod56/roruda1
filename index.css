@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.top{
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    background-color: #213f66;
+    width: 100%;
+    height: 3rem;
+}
+.logo img{
+    width: 5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+.menu a{
+    text-decoration: none;
+    color: #b5b9b9;
+    float: right;
+    padding-right: 2rem;
+    font-size: 1rem;
+    position: relative;
+    top: -3.5rem;
+}
+.menu a:hover{
+    color: white;
+}
+.back{
+    background-image: url('main.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 13.4rem;
+}
+.typp{
+    text-align: center;
+    position: relative;
+    top: -10rem;
+    font-size:3rem;
+    color: white;
+}
